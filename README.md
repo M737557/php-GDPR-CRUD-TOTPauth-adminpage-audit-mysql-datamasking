@@ -1,6 +1,6 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
 
-release1
+release1.1
 20 june 2026.
 
 1. start with admin.php
