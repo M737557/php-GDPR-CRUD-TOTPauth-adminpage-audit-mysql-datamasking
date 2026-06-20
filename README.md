@@ -10,4 +10,9 @@ release1
    - configure database settings
   
 3. run index.php
+   - create data
   
+4. check audit_viewer.php
+   - audit/undo data
+  
+Enjoy.
