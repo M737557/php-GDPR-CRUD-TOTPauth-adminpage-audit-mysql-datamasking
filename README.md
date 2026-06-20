@@ -17,3 +17,6 @@ release1
    - audit/undo data
   
 Enjoy.
+
+Got questions or feature request, contact me.
+matijn@gmail.com
