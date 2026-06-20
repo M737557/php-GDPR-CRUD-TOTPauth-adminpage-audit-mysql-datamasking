@@ -20,3 +20,7 @@ Enjoy.
 
 Got questions or feature request, contact me.
 matijn@gmail.com
+
++++++++
+Known bug(s)
+audit_viewer.php (search record id).
