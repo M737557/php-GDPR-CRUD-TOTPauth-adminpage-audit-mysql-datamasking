@@ -5,7 +5,7 @@ production
 
 release1.1.7z
 
-totp_auth.php: Forbidden 403 non-admin users are redirected to login as admin.
+audit_viewer.php: Forbidden 403 (totp_auth.php) non-admin users are redirected to login as admin.
 
 
 20 june 2026.
