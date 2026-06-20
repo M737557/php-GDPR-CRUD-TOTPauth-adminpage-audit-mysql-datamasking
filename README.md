@@ -1,9 +1,9 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
-release1
+release1.7z
 
 production
 
-release1.1
+release1.1.7z
 
 Audit_viewer.php: Forbidden 403 non-admin users are redirected to login as admin.
 
