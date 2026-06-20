@@ -8,6 +8,7 @@ release1
     
 2. config.php
    - configure database settings
+   - configure datamasking settings
   
 3. run index.php
    - create data
