@@ -14,7 +14,7 @@ release1
    - create data
   
 4. check audit_viewer.php
-   - audit/undo data
+   - audit/undo newdata old data (restore)
   
 Enjoy.
 
