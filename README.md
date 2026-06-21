@@ -1,10 +1,4 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
-**release1.1.1.7z**
-
-audit_viewer.php: Forbidden 403 (totp_auth.php) non-admin users are redirected to login as admin.
-Redirect to logout.php instead of login.php
-
-
 20 june 2026.
 
 1. start with admin.php
@@ -31,3 +25,7 @@ Known bug(s)
 
 audit_viewer.php (search record id).
 
+**release1.1.1.7z**
+
+audit_viewer.php: Forbidden 403 (totp_auth.php) non-admin users are redirected to login as admin.
+Redirect to logout.php instead of login.php
