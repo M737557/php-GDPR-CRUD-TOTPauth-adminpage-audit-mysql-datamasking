@@ -2,19 +2,19 @@
 
 22 june 2026: 
 
-Future features release 1.3
-
-- preconfigured personal database in executable change columns.
-Expect it to be released in 2 days from today.
-released 22 june 2026
-
+Release 1.3
+Released on 22 june 2026 19:18
+- re(label) columns in config.php line 73-100.
+- forced password login + TOTP (is required now). See config.php.
 
 Release 1.2
 - forced password login + TOTP (is required now). See config.php.
 
 Enjoy.
 
-0. Configure columns in database line 73 till 100 in config.php (re-label database fields/columns):
+Quick Manual:
+
+0. Configure columns in database line 73 till 100 in config.php (re-label database fields/columns) (only for release1.3):
     
     'relation_number'   => 'Relation Number X',
     
