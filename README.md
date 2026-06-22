@@ -15,10 +15,6 @@ Release 1.2
 Enjoy.
 
 0. Configure columns in database line 73 till 100 in config.php (re-label database fields/columns):
-
-define('FIELD_LABELS', serialize([
-
-    // Personal Information
     
     'relation_number'   => 'Relation Number X',
     
