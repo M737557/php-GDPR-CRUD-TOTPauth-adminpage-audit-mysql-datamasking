@@ -1,4 +1,10 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
+
+22 june 2026: 
+
+1. working on forced TOTP Login with password.
+2. setup.php page to edit columns for specific database needs and configuration of database table/columns.
+
 20 june 2026.
 
 1. start with admin.php
