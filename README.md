@@ -2,8 +2,11 @@
 
 22 june 2026: 
 
+Features to be implemented (soon) in next release 1.2
 1. working on forced TOTP Login with password.
 2. setup.php page to edit columns for specific database needs and configuration of database table/columns.
+
+Enjoy.
 
 20 june 2026.
 
