@@ -2,13 +2,29 @@
 
 22 june 2026: 
 
-Features to be implemented (soon) in next release 1.2
-1. working on forced password login + TOTP (required).
-2. setup.php page to edit columns for specific database needs and configuration of database table/columns.
+Release 1.2
+- forced password login + TOTP (is required now). See config.php.
 
 Enjoy.
 
-20 june 2026.
+0. Configure columns in database, from line 542 in index.php:
+   - replace 'relation_number', 'passport_number' etcetera for own needs. Allow to REPLACE FOR ALL in current notepad/notepad++
+
+   `id`                 INT(11)   NOT NULL AUTO_INCREMENT,
+        `relation_number`    TEXT      NOT NULL,
+        `passport_number`    TEXT      DEFAULT NULL,
+        `gender`             TEXT      DEFAULT NULL,
+        `initials`           TEXT      DEFAULT NULL,
+        `first_name`         TEXT      NOT NULL,
+        `nickname`           TEXT      DEFAULT NULL,
+        `name_prefix`        TEXT      DEFAULT NULL,
+        `last_name`          TEXT      NOT NULL,
+        `postal_code`        TEXT      DEFAULT NULL,
+        `house_number`       TEXT      DEFAULT NULL,
+        `street`             TEXT      DEFAULT NULL,
+        `city`               TEXT      DEFAULT NULL,
+        `language`           TEXT      DEFAULT NULL,
+        `relationship_group` TEXT      DEFAULT NULL,
 
 1. start with admin.php
    - create admin with password, configure softtoken/multifactor One-Time Password.
