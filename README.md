@@ -1,6 +1,9 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
 
 22 june 2026: 
+Future features release 1.3
+- preconfigured personal database in executable change columns.
+Expect it to be released in 2 days from today.
 
 Release 1.2
 - forced password login + TOTP (is required now). See config.php.
