@@ -6,42 +6,56 @@ Future features release 1.3
 
 - preconfigured personal database in executable change columns.
 Expect it to be released in 2 days from today.
+released 22 june 2026
+
 
 Release 1.2
 - forced password login + TOTP (is required now). See config.php.
 
 Enjoy.
 
-0. Configure columns in database, from line 542 in index.php:
-   - replace 'relation_number', 'passport_number' etcetera for own needs. Allow to REPLACE FOR ALL in current notepad/notepad++
+0. Configure columns in database line 73 till 100 in config.php (re-label database fields/columns):
+ // --------------------------------------------
+// FIELD COLUMN LABELS (Display Names)
+// --------------------------------------------
+define('FIELD_LABELS', serialize([
+    // Personal Information
+    'relation_number'   => 'Relation Number X',
+    'passport_number'   => 'Passport Number X',
+    'gender'            => 'Gender X',
+    'initials'          => 'Initials X',
+    'first_name'        => 'First Name X',
+    'nickname'          => 'Nickname X',
+    'name_prefix'       => 'Name Prefix X',
+    'last_name'         => 'Last Name X',
+    
+    // Address Information
+    'postal_code'       => 'Postal Code X',
+    'house_number'      => 'House Number X',
+    'street'            => 'Street X',
+    'city'              => 'City X',
+    
+    // Additional Information
+    'language'          => 'Language',
+    'relationship_group'=> 'Relationship Group',
+    
+    // System Fields
+    'date_created'      => 'Date Created',
+    'date_modified'     => 'Date Modified',
+]));
 
-   `id`                 INT(11)   NOT NULL AUTO_INCREMENT,
-        `relation_number`    TEXT      NOT NULL,
-        `passport_number`    TEXT      DEFAULT NULL,
-        `gender`             TEXT      DEFAULT NULL,
-        `initials`           TEXT      DEFAULT NULL,
-        `first_name`         TEXT      NOT NULL,
-        `nickname`           TEXT      DEFAULT NULL,
-        `name_prefix`        TEXT      DEFAULT NULL,
-        `last_name`          TEXT      NOT NULL,
-        `postal_code`        TEXT      DEFAULT NULL,
-        `house_number`       TEXT      DEFAULT NULL,
-        `street`             TEXT      DEFAULT NULL,
-        `city`               TEXT      DEFAULT NULL,
-        `language`           TEXT      DEFAULT NULL,
-        `relationship_group` TEXT      DEFAULT NULL,
 
-1. start with admin.php
+2. start with admin.php
    - create admin with password, configure softtoken/multifactor One-Time Password.
     
-2. config.php
+3. config.php
    - configure database settings
    - configure datamasking settings
   
-3. run index.php
+4. run index.php
    - create data
   
-4. check audit_viewer.php
+5. check audit_viewer.php
    - audit/undo newdata old data (restore)
   
 Enjoy.
