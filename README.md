@@ -15,35 +15,17 @@ Release 1.2
 Enjoy.
 
 0. Configure columns in database line 73 till 100 in config.php (re-label database fields/columns):
- // --------------------------------------------
-// FIELD COLUMN LABELS (Display Names)
-// --------------------------------------------
-define('FIELD_LABELS', serialize([
-    // Personal Information
-    'relation_number'   => 'Relation Number X',
-    'passport_number'   => 'Passport Number X',
-    'gender'            => 'Gender X',
-    'initials'          => 'Initials X',
-    'first_name'        => 'First Name X',
-    'nickname'          => 'Nickname X',
-    'name_prefix'       => 'Name Prefix X',
-    'last_name'         => 'Last Name X',
-    
-    // Address Information
-    'postal_code'       => 'Postal Code X',
-    'house_number'      => 'House Number X',
-    'street'            => 'Street X',
-    'city'              => 'City X',
-    
-    // Additional Information
-    'language'          => 'Language',
-    'relationship_group'=> 'Relationship Group',
-    
-    // System Fields
-    'date_created'      => 'Date Created',
-    'date_modified'     => 'Date Modified',
-]));
 
+define('FIELD_LABELS', serialize([
+
+    // Personal Information
+    
+    'relation_number'   => 'Relation Number X',
+    
+    'passport_number'   => 'Passport Number X',
+    
+  etc..
+  
 
 2. start with admin.php
    - create admin with password, configure softtoken/multifactor One-Time Password.
