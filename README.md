@@ -7,15 +7,18 @@ Released on 22 june 2026 20:09
 - authRequireLogin(); added to index.php (guest access was possible in 1.3)
 
 
+
 Release 1.3
 Released on 22 june 2026 19:18
 - re(label) columns in config.php line 73-100.
 - forced password login + TOTP (is required now). See config.php.
+- 
 
 Release 1.2
 - forced password login + TOTP (is required now). See config.php.
 
-Enjoy.
+
+
 
 
 Quick Manual:
