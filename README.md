@@ -1,12 +1,13 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
 
+23 juni 2026 12:54
 Features to expect **to launch soon**
 
 - double click table record to edit
 - config.php in a secure bubble (not able to edit config.enc file).
   
 
-23 juni 2026:
+
 
 **Release of 'mysql queries rot47.txt' and Release1.5**
 
