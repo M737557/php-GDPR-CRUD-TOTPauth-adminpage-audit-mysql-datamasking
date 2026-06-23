@@ -71,6 +71,8 @@ Released on 22 june 2026 19:18
    - lookup in files directory (admin_setup_info.txt created). Logon with included parameters(username/password/totp)
    - setup totp on smartphone, from appstore or playstore authenticator apps like microsoft authenticator or go to:
    https://totp.danhersam.com/
+https://support.microsoft.com/nl-NL/authenticator/download-microsoft-authenticator
+
 
 3. Configure columns in config.php line 73 till 100 (re-label database fields/columns):
     
