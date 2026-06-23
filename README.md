@@ -18,6 +18,10 @@ Released on 22 june 2026 19:18
 - forced password login + TOTP (is required now). See config.php.
 
 
+**release1.1.1.1**
+
+- audit_viewer.php: Forbidden 403 (totp_auth.php) non-admin users are redirected to login as admin.
+- Redirect to logout.php instead of login.php
 
 
 
@@ -59,8 +63,4 @@ audit_viewer.php (search record id).
 
 Release information
 
-**release1.1.1.1.7z**
 
-audit_viewer.php: Forbidden 403 (totp_auth.php) non-admin users are redirected to login as admin.
-Redirect to logout.php instead of login.php
-cleaned config.php file lean code.
