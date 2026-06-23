@@ -2,6 +2,9 @@
 
 23 juni 2026 13:15
 
+Features to expect to **launch soon**
+- Audit_viewer.php with fixed bug, record id lookup and search through.
+
 **Features release 1.6**
 
 - double click table record to edit
