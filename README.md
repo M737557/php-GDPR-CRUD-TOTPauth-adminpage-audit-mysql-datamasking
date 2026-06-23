@@ -68,7 +68,7 @@ Released on 22 june 2026 19:18
 **Quick Manual:**
 
 1. first launch
-   - lookup in directory txt file for totp and username/password.
+   - lookup in directory txt file for totp and username/password (admin_setup_info.txt).
 
 2. Configure columns in config.php line 73 till 100 (re-label database fields/columns):
     
