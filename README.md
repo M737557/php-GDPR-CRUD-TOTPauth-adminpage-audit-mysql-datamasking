@@ -2,9 +2,11 @@
 
 23 juni 2026:
 
-**Release of 'mysql queries rot47.txt'**
+**Release of 'mysql queries rot47.txt' and Release1.5**
 
-- configure routine tasks first, then launch the queries. Enjoy.
+- configure routine tasks first, then launch the queries.
+- Addes CSRF protection to admin.php
+-   Enjoy.
 
 
 22 june 2026: 
