@@ -24,7 +24,7 @@ Enjoy this release.
 
 - configure routine tasks first, then launch the queries.
 - Addes CSRF protection to admin.php
-- joined query of two databases
+- joined query of two (crud) databases
 -   Enjoy.
 
 
