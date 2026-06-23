@@ -1,5 +1,10 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
 
+23 juni 2026:
+Release of mysql queries rot47.txt
+- configure routine tasks first, then launch the queries. Enjoy.
+
+
 22 june 2026: 
 
 **Release 1.4**
