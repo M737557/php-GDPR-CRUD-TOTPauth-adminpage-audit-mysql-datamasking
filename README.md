@@ -3,8 +3,11 @@
 23 juni 2026 13:15
 
 Features to expect to **launch soon**
-- Audit_viewer.php with fixed bug, record id lookup and search through.
+- stay tuned.
 
+**Features release 1.7**
+- Audit_viewer.php with fixed bug, record id lookup and search through.
+- added new mysql query, join two databases rot47.
   
 
 **Features release 1.6**
