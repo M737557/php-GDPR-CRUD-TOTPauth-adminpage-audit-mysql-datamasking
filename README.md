@@ -24,9 +24,7 @@ Features to expect to **launch soon**
 
 - double click table record to edit
 - config.php in a secure bubble (not able to edit config.enc file).
-  enc file creation.7z
-
-Hook require-once (read.php) in index.php to launch bubble configuration as *.enc file.
+- PRO: enc file creation.7z (Hook require-once (read.php) in index.php to launch bubble configuration as *.enc file.)
 
 Enjoy this release.
   
