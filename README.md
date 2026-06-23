@@ -101,9 +101,9 @@ matijn@gmail.com
 
 +++++++
 
-Known bug(s)
+Known bug(s)/ fixed list:
 
-audit_viewer.php (search record id).
+audit_viewer.php (search record id) fixed in release 1.8
 
 
 
