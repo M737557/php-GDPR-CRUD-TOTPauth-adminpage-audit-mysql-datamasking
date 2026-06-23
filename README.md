@@ -1,5 +1,8 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
 
+1.6 contains bug
+ Fatal error: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'contact_manager_release170prd' 
+ 
 23 juni 2026 13:46
 
 Features to expect to **launch soon**
