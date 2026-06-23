@@ -1,17 +1,22 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
 
-1.6 contains bug
+1.7 release contains bug
  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'contact_manager_release170prd' 
  
 23 juni 2026 13:46
 
 Features to expect to **launch soon**
 - stay tuned.
+
+
+**Features release 1.8**
 - audit_viewer.php filter based on USER
 
 **Features release 1.7**
 - Audit_viewer.php with fixed bug, record id lookup and search through.
 - added new mysql query, join two databases rot47.
+- do not use this version: contains bug
+ Fatal error: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'contact_manager_release170prd' 
   
 
 **Features release 1.6**
