@@ -1,4 +1,4 @@
-add to database routine tasks, choose database then go to table contacts, run sql:
+add to (both) database(es) routine tasks, choose database then go to table contacts, run sql:
 
 -- Enable event scheduler
 SET GLOBAL event_scheduler = ON;
@@ -21,6 +21,13 @@ BEGIN
 END$$
 DELIMITER ;
 
+
+
+\\join two databases and tables together
+SELECT rot47(city) as city, COUNT(*) as city_count 
+FROM ( SELECT city FROM contact_manager_release160prd.contacts 
+UNION ALL SELECT city FROM contact_manager_release150prd.contacts ) AS combined GROUP BY rot47(city) 
+ORDER BY rot47(city) ASC;
 
 
 
