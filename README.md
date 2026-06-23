@@ -69,9 +69,12 @@ Released on 22 june 2026 19:18
 **Quick Manual:**
 
 1. first launch
-   - lookup in directory txt file for totp and username/password (admin_setup_info.txt).
+   - point browser to website/directory
+   - lookup in files directory (admin_setup_info.txt created). Logon with included parameters(username/password/totp)
+   - setup totp on smartphone, from appstore or playstore authenticator apps like microsoft authenticator or go to:
+   https://totp.danhersam.com/
 
-2. Configure columns in config.php line 73 till 100 (re-label database fields/columns):
+3. Configure columns in config.php line 73 till 100 (re-label database fields/columns):
     
     'relation_number'   => 'Relation Number X',
     
