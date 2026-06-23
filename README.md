@@ -83,6 +83,5 @@ Known bug(s)
 
 audit_viewer.php (search record id).
 
-Release information
 
 
