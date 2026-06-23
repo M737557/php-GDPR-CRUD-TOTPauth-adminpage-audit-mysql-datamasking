@@ -1,0 +1,78 @@
+add to database routine tasks, choose database then go to table contacts, run sql:
+
+-- Enable event scheduler
+SET GLOBAL event_scheduler = ON;
+
+-- Create weekly maintenance event
+DELIMITER $$
+CREATE EVENT weekly_maintenance
+ON SCHEDULE EVERY 1 WEEK
+STARTS CURRENT_TIMESTAMP
+DO
+BEGIN
+    -- Cleanup old records
+    DELETE FROM your_table_name 
+    WHERE date_created < DATE_SUB(NOW(), INTERVAL 2 YEAR);
+    
+    -- Update status flags
+    UPDATE your_table_name 
+    SET relationship_group = 'Archived' 
+    WHERE date_created < DATE_SUB(NOW(), INTERVAL 1 YEAR);
+END$$
+DELIMITER ;
+
+
+
+
+{example queries mysql}
+\\ sort based on date_modified
+
+SELECT 
+    id, 
+    rot47(relation_number) as relation_number, 
+    rot47(passport_number) as passport_number, 
+    rot47(gender) as gender, 
+    rot47(initials) as initials, 
+    rot47(first_name) as first_name, 
+    rot47(nickname) as nickname, 
+    rot47(name_prefix) as name_prefix, 
+    rot47(last_name) as last_name, 
+    rot47(postal_code) as postal_code, 
+    rot47(house_number) as house_number, 
+    rot47(street) as street, 
+    rot47(city) as city, 
+    rot47(language) as language, 
+    rot47(relationship_group) as relationship_group, 
+    date_created, 
+    date_modified 
+FROM contacts
+ORDER BY date_modified desc;
+
+
+
+\\ sort based on relation_number
+
+SELECT 
+    id, 
+    rot47(relation_number) as relation_number, 
+    rot47(passport_number) as passport_number, 
+    rot47(gender) as gender, 
+    rot47(initials) as initials, 
+    rot47(first_name) as first_name, 
+    rot47(nickname) as nickname, 
+    rot47(name_prefix) as name_prefix, 
+    rot47(last_name) as last_name, 
+    rot47(postal_code) as postal_code, 
+    rot47(house_number) as house_number, 
+    rot47(street) as street, 
+    rot47(city) as city, 
+    rot47(language) as language, 
+    rot47(relationship_group) as relationship_group, 
+    date_created, 
+    date_modified 
+FROM contacts
+ORDER BY relation_number asc;
+
+
+\\count city and sort
+SELECT rot47(city) as city, COUNT(*) as city_count FROM contacts GROUP BY rot47(city) ORDER BY rot47(city) ASC;
