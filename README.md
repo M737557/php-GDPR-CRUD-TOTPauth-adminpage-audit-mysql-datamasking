@@ -2,7 +2,7 @@
 
 23 juni 2026 12:54
 
-Features release 1.6p
+**Features release 1.6**
 
 - double click table record to edit
 - config.php in a secure bubble (not able to edit config.enc file).
