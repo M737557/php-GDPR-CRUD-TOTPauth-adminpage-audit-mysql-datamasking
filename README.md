@@ -17,9 +17,10 @@ Release 1.2
 
 Enjoy.
 
+
 Quick Manual:
 
-0. Configure columns in database line 73 till 100 in config.php (re-label database fields/columns) (only for release1.3):
+0. Configure columns in config.php line 73 till 100 (re-label database fields/columns) (only for release1.3):
     
     'relation_number'   => 'Relation Number X',
     
