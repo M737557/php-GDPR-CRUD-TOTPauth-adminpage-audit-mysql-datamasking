@@ -2,26 +2,26 @@
 
 22 june 2026: 
 
-Release 1.4
+**Release 1.4**
 Released on 22 june 2026 20:09
 - authRequireLogin(); added to index.php (guest access was possible in 1.3)
 
 
 
-Release 1.3
+**Release 1.3**
 Released on 22 june 2026 19:18
 - re(label) columns in config.php line 73-100.
 - forced password login + TOTP (is required now). See config.php.
 - 
 
-Release 1.2
+**Release 1.2**
 - forced password login + TOTP (is required now). See config.php.
 
 
 
 
 
-Quick Manual:
+**Quick Manual:**
 
 0. Configure columns in config.php line 73 till 100 (re-label database fields/columns):
     
@@ -32,9 +32,9 @@ Quick Manual:
   etc..
   
 
-2. start with admin.php
+2. **start with admin.php
    - create admin with password, configure softtoken/multifactor One-Time Password.
-   - after setting up password uncomment line 8 //authRequireAdmin(); to authRequireAdmin();
+   - after setting up password uncomment line 8 //authRequireAdmin(); to authRequireAdmin();**
     
 3. config.php
    - configure database settings
