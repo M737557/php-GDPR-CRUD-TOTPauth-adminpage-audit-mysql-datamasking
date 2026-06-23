@@ -31,6 +31,7 @@ Quick Manual:
 
 2. start with admin.php
    - create admin with password, configure softtoken/multifactor One-Time Password.
+   - after setting up password uncomment line 8 //authRequireAdmin(); to authRequireAdmin();
     
 3. config.php
    - configure database settings
