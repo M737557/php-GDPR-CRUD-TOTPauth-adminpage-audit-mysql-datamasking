@@ -1,0 +1,86 @@
+add to database routine tasks, choose database then go to table contacts, run sql:
+
+DELIMITER //
+
+CREATE FUNCTION ROT47(input_str VARCHAR(255))
+RETURNS VARCHAR(255)
+DETERMINISTIC
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    DECLARE output_str VARCHAR(255) DEFAULT '';
+    DECLARE char_code INT;
+    DECLARE current_char CHAR(1);
+    
+    WHILE i <= LENGTH(input_str) DO
+        SET current_char = SUBSTRING(input_str, i, 1);
+        SET char_code = ASCII(current_char);
+        
+        IF char_code BETWEEN 33 AND 126 THEN
+            SET output_str = CONCAT(output_str, CHAR(33 + ((char_code - 33 + 47) % 94)));
+        ELSE
+            SET output_str = CONCAT(output_str, current_char);
+        END IF;
+        
+        SET i = i + 1;
+    END WHILE;
+    
+    RETURN output_str;
+END //
+
+DELIMITER ;
+
+
+
+
+{example queries mysql}
+\\ sort based on date_modified
+
+SELECT 
+    id, 
+    rot47(relation_number) as relation_number, 
+    rot47(passport_number) as passport_number, 
+    rot47(gender) as gender, 
+    rot47(initials) as initials, 
+    rot47(first_name) as first_name, 
+    rot47(nickname) as nickname, 
+    rot47(name_prefix) as name_prefix, 
+    rot47(last_name) as last_name, 
+    rot47(postal_code) as postal_code, 
+    rot47(house_number) as house_number, 
+    rot47(street) as street, 
+    rot47(city) as city, 
+    rot47(language) as language, 
+    rot47(relationship_group) as relationship_group, 
+    date_created, 
+    date_modified 
+FROM contacts
+ORDER BY date_modified desc;
+
+
+
+\\ sort based on relation_number
+
+SELECT 
+    id, 
+    rot47(relation_number) as relation_number, 
+    rot47(passport_number) as passport_number, 
+    rot47(gender) as gender, 
+    rot47(initials) as initials, 
+    rot47(first_name) as first_name, 
+    rot47(nickname) as nickname, 
+    rot47(name_prefix) as name_prefix, 
+    rot47(last_name) as last_name, 
+    rot47(postal_code) as postal_code, 
+    rot47(house_number) as house_number, 
+    rot47(street) as street, 
+    rot47(city) as city, 
+    rot47(language) as language, 
+    rot47(relationship_group) as relationship_group, 
+    date_created, 
+    date_modified 
+FROM contacts
+ORDER BY relation_number asc;
+
+
+\\count city and sort
+SELECT rot47(city) as city, COUNT(*) as city_count FROM contacts GROUP BY rot47(city) ORDER BY rot47(city) ASC;
