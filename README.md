@@ -2,7 +2,7 @@
 
 23 juni 2026:
 
-**Release of mysql queries rot47.txt**
+**Release of 'mysql queries rot47.txt'**
 
 - configure routine tasks first, then launch the queries. Enjoy.
 
