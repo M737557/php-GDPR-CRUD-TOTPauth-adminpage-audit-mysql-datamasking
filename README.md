@@ -23,7 +23,7 @@ Released on 22 june 2026 19:18
 
 **Quick Manual:**
 
-0. Configure columns in config.php line 73 till 100 (re-label database fields/columns):
+1. Configure columns in config.php line 73 till 100 (re-label database fields/columns):
     
     'relation_number'   => 'Relation Number X',
     
@@ -32,9 +32,9 @@ Released on 22 june 2026 19:18
   etc..
   
 
-2. **start with admin.php
+2. start with admin.php
    - create admin with password, configure softtoken/multifactor One-Time Password.
-   - after setting up password uncomment line 8 //authRequireAdmin(); to authRequireAdmin();**
+   - after setting up password uncomment line 8 //authRequireAdmin(); to authRequireAdmin();
     
 3. config.php
    - configure database settings
