@@ -2,10 +2,15 @@
 
 23 juni 2026 12:54
 
-Features to expect **to launch soon**
+Features release 1.6p
 
 - double click table record to edit
 - config.php in a secure bubble (not able to edit config.enc file).
+  enc file creation.7z
+
+Hook require-once (read.php) in index.php to launch bubble configuration as *.enc file.
+
+Enjoy this release.
   
 
 
