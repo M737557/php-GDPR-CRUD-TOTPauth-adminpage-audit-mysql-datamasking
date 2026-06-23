@@ -5,6 +5,8 @@
 Features to expect to **launch soon**
 - Audit_viewer.php with fixed bug, record id lookup and search through.
 
+  
+
 **Features release 1.6**
 
 - double click table record to edit
@@ -22,6 +24,7 @@ Enjoy this release.
 
 - configure routine tasks first, then launch the queries.
 - Addes CSRF protection to admin.php
+- joined query of two databases
 -   Enjoy.
 
 
