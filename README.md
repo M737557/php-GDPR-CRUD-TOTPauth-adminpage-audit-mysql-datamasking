@@ -4,6 +4,7 @@
 
 Features to expect to **launch soon**
 - stay tuned.
+- audit_viewer.php filter based on USER
 
 **Features release 1.7**
 - Audit_viewer.php with fixed bug, record id lookup and search through.
