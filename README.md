@@ -10,7 +10,7 @@ pagination working. Fixed in release1.8
 Features to expect to **launch soon**
 - abcdefghijklmnopqrstuvwxyz database, LOL
 - advanced config file for abcdefghijklmnopqrstuvwxyz database.
-  Stay cool.
+- Stay cool.
 
 **Features release 1.9**
 - bug fix pagination working
