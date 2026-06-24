@@ -10,7 +10,7 @@ pagination working. Fixed in release1.8
 Features to expect to **launch soon**
 - stay tuned
 
-**Features release 1.8**
+**Features release 1.9**
 - bug fix pagination working
 
 
