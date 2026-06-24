@@ -12,6 +12,7 @@ Features to expect to **launch soon**
 - Stay cool.
 
  **Features release 2.2**
+- Caution, this database schema is different from before, you cannot upgrade this release working. Without beginning again.
 - abcdefghijklmnopqrstuvwxyz database with re-label function
 
 config.php re-label this line 89 till line 123.
