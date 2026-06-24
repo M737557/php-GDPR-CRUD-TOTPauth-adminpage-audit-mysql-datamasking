@@ -14,6 +14,9 @@ Features to expect to **launch soon**
  **Features release 2.2**
 - Caution, this database schema is different from before, you cannot upgrade this release working. Without beginning again.
 - abcdefghijklmnopqrstuvwxyz database with re-label function
+- mysql queries are now for different schema, therefor I didn't include them in this release.
+  
+Enjoy.
 
 config.php re-label this line 89 till line 123.
 // ID Column
