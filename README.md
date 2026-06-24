@@ -7,11 +7,22 @@ pagination working. Fixed in release1.8
  
 **24 june 2026 15:10**
 
+
 Features to expect to **launch soon**
-- abcdefghijklmnopqrstuvwxyz database, LOL
-- advanced config file for abcdefghijklmnopqrstuvwxyz database.
 - Stay cool.
 
+ **Features release 2.2**
+- abcdefghijklmnopqrstuvwxyz database with re-label function
+
+config.php re-label this line 89 till line 123.
+// ID Column
+    'id' => 'ID',
+    // Custom Fields A-Z
+    'a' => 'Field A',
+    'b' => 'Field B',
+    'c' => 'Field C',
+
+  
 **Features release 1.9**
 - bug fix pagination working
 
