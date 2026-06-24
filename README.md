@@ -8,7 +8,9 @@ pagination working. Fixed in release1.8
 **24 june 2026 09:28**
 
 Features to expect to **launch soon**
-- stay tuned
+- abcdefghijklmnopqrstuvwxyz database, LOL
+- advanced config file for abcdefghijklmnopqrstuvwxyz database.
+  Stay cool.
 
 **Features release 1.9**
 - bug fix pagination working
