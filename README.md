@@ -2,11 +2,16 @@
 
 1.7 release contains bug
  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'contact_manager_release170prd' 
+all releases
+pagination working. Fixed in release1.8
  
-**24 june 2026 09:11**
+**24 june 2026 09:28**
 
 Features to expect to **launch soon**
-- bug fix pagination not working!
+- stay tuned
+
+**Features release 1.8**
+- bug fix pagination working
 
 
 **Features release 1.8**
