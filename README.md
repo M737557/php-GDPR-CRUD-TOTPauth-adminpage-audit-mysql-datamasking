@@ -5,11 +5,26 @@
 all releases
 pagination working. Fixed in release1.8
  
-**24 june 2026 15:10**
+**25 june 2026 07:45**
 
 
 Features to expect to **launch soon**
 - Stay cool.
+
+ **Features release 2.3**
+- config.php:
+
+define('COLUMN_MAX_LENGTH', serialize([
+    'a' => 12,
+    'b' => 12,
+    'c' => 12,
+    'd' => 15,  //bigger max length limit
+    'e' => 12,
+    // etc.
+]));
+
+For bigger data columns this is cool new feature. No Multilines anymore. 
+
 
  **Features release 2.2**
 - Caution, this database schema is different from before, you cannot upgrade this release working. Without beginning again.
