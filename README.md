@@ -9,7 +9,12 @@ Features to **launch soon**
 
  ' Expect the unexpected '
  - same height align of table view (records (partial, none, full)).
+ 
 
+**Features release 2.4**
+- do not show in records view: full, partial on columns. When in config configured for a column
+- release is imminent
+   
 
  **Features release 2.3**
 - config.php:
