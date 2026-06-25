@@ -13,7 +13,7 @@ Features to **launch soon**
 
 **Features release 2.4**
 - do not show in records view: full, partial on columns. When in config configured for a column
-- claude AI code cleanup/lean.
+- Claude AI code cleanup/lean.
 - release is imminent
    
 
