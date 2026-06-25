@@ -29,7 +29,12 @@ define('COLUMN_MAX_LENGTH', serialize([
     // etc.
     
 ]));
-
+ 
+  
+  config.php re-label this line 98 till line 131
+   'a' => 'Field A',
+  
+   'b' => 'Field B',
 
 For bigger data columns this is cool new feature. No Multilines anymore. 
 
@@ -39,11 +44,8 @@ For bigger data columns this is cool new feature. No Multilines anymore.
 - abcdefghijklmnopqrstuvwxyz database with re-label function
 - mysql queries are now for different schema, therefor I didn't include them in this release.
 
-  config.php re-label this line 98 till line 131
 
-   'a' => 'Field A',
-  
-   'b' => 'Field B',
+   
   
 Enjoy.
 
