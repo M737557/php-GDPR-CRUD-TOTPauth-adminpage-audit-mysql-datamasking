@@ -29,7 +29,9 @@ define('COLUMN_MAX_LENGTH', serialize([
     // etc.
     
 ]));
- 
+
+ For bigger data columns this is cool new feature. No Multilines anymore. 
+
   
   config.php re-label database with line 98 till line 131
 
@@ -38,7 +40,6 @@ define('COLUMN_MAX_LENGTH', serialize([
   
    'b' => 'Field B',
 
-For bigger data columns this is cool new feature. No Multilines anymore. 
 
 
  **Features release 2.2**
