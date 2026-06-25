@@ -38,6 +38,12 @@ For bigger data columns this is cool new feature. No Multilines anymore.
 - Caution, this database schema is different from before, you cannot upgrade this release working. Without beginning again.
 - abcdefghijklmnopqrstuvwxyz database with re-label function
 - mysql queries are now for different schema, therefor I didn't include them in this release.
+
+  config.php re-label this line 98 till line 131
+
+   'a' => 'Field A',
+  
+   'b' => 'Field B',
   
 Enjoy.
 
