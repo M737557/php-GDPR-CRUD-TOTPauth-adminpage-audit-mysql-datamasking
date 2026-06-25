@@ -8,8 +8,10 @@
 Features to **launch soon**
 
  ' Expect the unexpected '
-added to db schema
 
+
+**Features release 2.6**
+- added print functionality as pdf.
 
 **Features release 2.5**
  created_by (loggedin user create record) and add updated_by (loggedin user modified record)
