@@ -13,8 +13,8 @@ Features to **launch soon**
 
 **Features release 2.4**
 - do not show in records view: full, partial on columns. When in config configured for a column
-- Claude AI code cleanup/lean.
-- release is imminent
+- 50% code reduction 2.000 lines to 1.000 lines.
+- release is out now.
    
 
  **Features release 2.3**
