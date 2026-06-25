@@ -8,7 +8,7 @@
 Features to **launch soon**
 
  ' Expect the unexpected '
- - same height align of table view (records (partial, none, full)).
+
  
 
 **Features release 2.4**
