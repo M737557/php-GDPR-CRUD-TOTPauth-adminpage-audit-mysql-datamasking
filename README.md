@@ -15,13 +15,21 @@ Features to expect to **launch soon**
 - config.php:
 
 define('COLUMN_MAX_LENGTH', serialize([
+
     'a' => 12,
+    
     'b' => 12,
+    
     'c' => 12,
+    
     'd' => 15,  //bigger max length limit
+    
     'e' => 12,
+    
     // etc.
+    
 ]));
+
 
 For bigger data columns this is cool new feature. No Multilines anymore. 
 
