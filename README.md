@@ -32,6 +32,7 @@ define('COLUMN_MAX_LENGTH', serialize([
  
   
   config.php re-label database with line 98 till line 131
+
   
    'a' => 'Field A',
   
