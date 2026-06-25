@@ -9,7 +9,9 @@ pagination working. Fixed in release1.8
 
 
 Features to expect to **launch soon**
-- Stay cool.
+
+Expect the unexpected
+
 
  **Features release 2.3**
 - config.php:
