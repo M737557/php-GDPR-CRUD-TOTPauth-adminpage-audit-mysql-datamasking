@@ -9,9 +9,10 @@ Features to **launch soon**
 
  ' Expect the unexpected '
 added to db schema
-created_by (loggedin user create record) and add updated_by (loggedin user modified record)
 
- 
+
+**Features release 2.5**
+ created_by (loggedin user create record) and add updated_by (loggedin user modified record)
 
 **Features release 2.4**
 - do not show in records view: full, partial on columns. When in config configured for a column
