@@ -8,6 +8,8 @@
 Features to **launch soon**
 
  ' Expect the unexpected '
+ 
+created_by (loggedin user create record) and add updated_by (loggedin user modified record)
 
  
 
