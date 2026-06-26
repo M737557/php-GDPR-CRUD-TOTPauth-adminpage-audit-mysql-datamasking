@@ -9,6 +9,8 @@ Features to **launch soon**
 
  ' Expect the unexpected '
 
+**Features release 2.8**
+- is release2.5 with css removed for relationship group column and id column.
 
 **Features release 2.6**
 - added print functionality as pdf.
