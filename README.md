@@ -2,7 +2,7 @@
 
 
  
-**26 june 2026 10:29**
+**26 june 2026 11:58**
 - bug: delete of record is not the id selected to delete its another record deleted. fix in progress.
 
 
