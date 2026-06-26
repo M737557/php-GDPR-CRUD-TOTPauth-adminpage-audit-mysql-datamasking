@@ -6,7 +6,11 @@ Features to **launch soon**
 **26 june 2026 12:13**
 
 **Latest release**
-3.0 
+3.2 
+
+**release 3.2**
+
+-- by deletion of record, enter admin softtoken.
 
 **PorschePanamera2.9Diesel.7z**
 
