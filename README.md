@@ -10,7 +10,8 @@ Features to **launch soon**
 
 **release 3.2**
 
--- by deletion of record, enter admin softtoken.
+- by deletion of record, enter admin softtoken.
+- only admins can delete records
 
 **PorschePanamera2.9Diesel.7z**
 
