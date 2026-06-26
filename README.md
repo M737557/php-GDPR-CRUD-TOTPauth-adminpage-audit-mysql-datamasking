@@ -2,8 +2,8 @@
 
 
  
-**26 june 2026 09:13**
-
+**26 june 2026 10:29**
+re-release of 2.8 with new features.
 
 Features to **launch soon**
 
