@@ -11,6 +11,30 @@ Features to **launch soon**
 
 **Features release 2.8**
 - is release2.5 with css removed for relationship group column and id column.
+RE-RELEASE:
+- removed all (specific) css for relationship group column
+
+// LIST VIEW VISIBILITY - Which columns appear in the all records table
+define('COLUMN_VISIBILITY_LIST', serialize([
+    // ID - Always visible
+    'id' => true,
+    // Custom Fields A-Z - Configure which appear in list view
+    'a' => true,
+    'b' => true,
+
+// EDIT VIEW VISIBILITY - Which columns appear in the add/edit form
+
+define('COLUMN_VISIBILITY_EDIT', serialize([
+    // ID - Not editable, but shown for reference
+    'id' => true,
+    // Custom Fields A-Z - All visible in edit form
+    'a' => true,
+    'b' => true,
+    'c' => true,
+
+
+    
+  
 
 **Features release 2.6**
 - added print functionality as pdf.
