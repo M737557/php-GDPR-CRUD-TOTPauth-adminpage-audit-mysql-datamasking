@@ -6,6 +6,7 @@ Features to **launch soon**
 **26 june 2026 12:13**
 
 **Latest release**
+3.0 
 
 **PorschePanamera2.9Diesel.7z**
 
