@@ -1,18 +1,23 @@
 # php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
 
-
+Features to **launch soon**
+ ' Expect the unexpected '
  
-**26 june 2026 11:58**
+**26 june 2026 12:13**
+
+**Latest release**
+
+**PorschePanamera2.9Diesel.7z**
+
 - bug: delete of record is not the id selected to delete its another record deleted. fix in progress.
+- bug fixed in release :PorschePanamera2.9Diesel.7z
 
 
 
 
 re-release of 2.8 with new features.
 
-Features to **launch soon**
 
- ' Expect the unexpected '
 
 **Features release 2.8**
 - is release2.5 with css removed for relationship group column and id column.
