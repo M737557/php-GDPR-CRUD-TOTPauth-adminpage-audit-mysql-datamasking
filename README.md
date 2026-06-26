@@ -3,6 +3,11 @@
 
  
 **26 june 2026 10:29**
+- bug: delete of record is not the id selected to delete its another record deleted. fix in progress.
+
+
+
+
 re-release of 2.8 with new features.
 
 Features to **launch soon**
