@@ -6,6 +6,7 @@ Features to **launch soon**
 **27 june 2026 15:35**
 
 **Latest release**
+
 3.3 edition, and 3.4
 
 **release 3.4**
