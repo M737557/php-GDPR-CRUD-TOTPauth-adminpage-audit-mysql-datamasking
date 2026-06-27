@@ -3,10 +3,10 @@
 Features to **launch soon**
  ' Expect the unexpected '
  
-**26 june 2026 12:13**
+**27 june 2026 15:20**
 
 **Latest release**
-3.2 
+3.3
 
 **release 3.2**
 
