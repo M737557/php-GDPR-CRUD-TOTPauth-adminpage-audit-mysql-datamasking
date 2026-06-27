@@ -6,7 +6,10 @@ Features to **launch soon**
 **27 june 2026 15:20**
 
 **Latest release**
-3.3
+3.3 edition, and 3.4
+
+**release 3.4**
+Warning: Undefined array key "csrf_token_time" on line 196 fixed bug.
 
 **release 3.2**
 
