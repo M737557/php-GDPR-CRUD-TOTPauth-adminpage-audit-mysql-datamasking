@@ -1,4 +1,13 @@
-# php-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking
+<h1><strong></strong>PHP-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking</h1></strong>
+<br>
+<img src="https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.png">
+Enjoy this software? PayPal me at: matijn.van.der.schans@gmail.com
+<br>
+Need help or features, contact me.
+<hr>
+
+
+
 
 Features to **launch soon**
  ' Expect the unexpected '
