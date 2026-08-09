@@ -1,6 +1,7 @@
 <h1><strong></strong>PHP-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking</h1></strong>
 <br>
-
+<img src="https://i.ibb.co/bRL0VL37/2fa.png">
+<br>
 <img src="https://i.ibb.co/n9hZ9G9/crudpng.png">
 <br>
 <img src="https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.png">
