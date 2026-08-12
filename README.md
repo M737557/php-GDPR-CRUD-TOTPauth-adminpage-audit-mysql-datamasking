@@ -7,10 +7,12 @@
 
 <img src="https://i.ibb.co/dwvrJ5y9/adminpanel.png">
 <br>
-
-
+<br><br>
 <img src="https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.png">
-Enjoy this software? PayPal me at: matijn.van.der.schans@gmail.com
+<br>
+
+
+Enjoy this software? PayPal me at: matijn.van.der.schans@gmail.com or use <a href="https://paypal.me/matijnvanderschans">Paypal Me Link</a>
 <br>
 Need help or features, contact me.
 <hr>
