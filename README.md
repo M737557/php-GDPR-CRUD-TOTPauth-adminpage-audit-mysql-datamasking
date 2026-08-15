@@ -1,3 +1,9 @@
+release3.4.7-MultiLanguage.7z<br>
+ 20+ Languages Supported
+
+    English, Dutch, French, German, Spanish, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Turkish, Polish, Ukrainian, Swedish, Norwegian, Danish, Finnish
+
+
 <h1><strong></strong>PHP-GDPR-CRUD-TOTPauth-adminpage-audit-mysql-datamasking</h1></strong>
 <br>
 <img src="https://i.ibb.co/bRL0VL37/2fa.png">
